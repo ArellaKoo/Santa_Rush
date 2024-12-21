@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.game-area {
+  position: relative;
+  width: 1000%;
+  height: 600px;
+  background: skyblue; /* Sky blue background */
+  overflow: hidden;
+}
+
+.santa {
+  position: absolute;
+  bottom: 20;
+  font-size: 300px;
+  transition: top 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: green;  /* Green ground */
+}
