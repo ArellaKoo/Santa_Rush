@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://arellakoo.github.io/Santa_Rush/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
