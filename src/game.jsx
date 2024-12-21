@@ -12,18 +12,18 @@ function Game() {
     }
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSantaPosition((prevPosition) => prevPosition + 10); // Move Santa forward
-    }, 100);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setSantaPosition((prevPosition) => prevPosition + 20); // Move Santa forward
+  //   }, 100);
     
-    return () => clearInterval(interval); // Clean up interval when component is removed
-  }, []);
+  //   return () => clearInterval(interval); // Clean up interval when component is removed
+  // }, []);
 
   return (
     <div className="game-area">
       {/* Display Santa */}
-      <div className="santa" style={{ left: `${santaPosition}px`, top: isJumping ? '50px' : '0px' }} onClick={jump}>
+      <div className="santa" style={{ left: `${santaPosition}px`, bottom: isJumping ? '400px' : '170px' }} onClick={jump}>
         🎅
       </div>
 
